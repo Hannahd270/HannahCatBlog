@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("background 2.png") no-repeat fixed top right;
+}
+#container{
+	width:800px;
+	margin:0 auto;
+}
+.left{
+	width:680px;
+		hieght:500px;
+	background-color:rgba(213,119,63,1.00);
+	border-radius: 25px;
+	float:left;
+	margin:0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+	visibility: hidden;
+}
+.right{
+	width:880px;
+		hieght:800px;
+	background-color:rgba(244,111,135,1.00);
+	border-radius: 25px;
+	float:right;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+}
+.below{
+	width:880px;
+	hieght:800px;
+	background-color: rgba(234,167,200,1.00);
+	border-radius: 25px;
+	float:right;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+}
+footer{
+	background-color: #E6DEDE;
+	clear:both;
+	display:block;
+}
+header  >h1{text-align:center;color:#fff;
+}
+header>h4{text-align: center;color:#fff;}
+#container .right{
+	background-color: rgba(236,184,152,1.00);
+}
